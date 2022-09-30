@@ -45,7 +45,7 @@ def getRatio(price_a, price_b):
     if(price_b == 0):
         # when price_b = 0 avoid throwing a ZeroDivisionError
         return 
-    return 1
+    return price_a/price_b
 
 
 # Main
